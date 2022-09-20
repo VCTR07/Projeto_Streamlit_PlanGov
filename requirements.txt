@@ -1,0 +1,17 @@
+import streamlit as st
+
+import pdfplumber
+import re
+from collections import Counter
+from itertools import islice
+from collections import defaultdict
+import pandas as pd
+import matplotlib.pyplot as plt
+import plotly.graph_objects as go
+import streamlit as st
+from goose3 import Goose
+import numpy as np
+from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
+import nltk
+nltk.download('stopwords')
+stopwords=nltk.corpus.stopwords.words('portuguese')
